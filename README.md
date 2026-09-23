@@ -16,8 +16,6 @@
 
 FinSight ingests bank statement CSVs and produces a categorized, anomaly-flagged, risk-scored view of personal finances. Built around a hybrid transaction classifier, a robust statistical anomaly engine, and a conversational AI advisor that explains insights in plain language. Processes 33,000+ transactions in under 20 seconds.
 
-Built as an extension of research presented at **FMS National Conference 2026 (Best Paper Award)** on AI adoption in FinTech.
-
 ---
 
 ## Features
@@ -96,7 +94,7 @@ Requires Docker Desktop and a Google AI Studio API key (free, no credit card nee
 
 ```bash
 # Clone the repo
-git clone https://github.com/SebMessi1075/finsight.git
+git clone https://github.com/Odenksss/finsight.git
 cd finsight
 
 # Add your Gemini API key
@@ -127,12 +125,6 @@ Currently runs locally via Docker Compose. Public deployment is paused — the s
 - **Email/digest alerts** for anomalies and budget thresholds
 - **Bank statement PDF parsing** (currently CSV only)
 - **Behavioral pattern detection** in the AI advisor — flagging repeated high-value purchases that individually look "normal" but cumulatively are anomalous
-
----
-
-## Acknowledgments
-
-Built as an extension of research presented at **FMS National Conference 2026 (Best Paper Award)** — *"Fuzzy-TISM and MICMAC analysis of structural barriers in AI-driven FinTech adoption."*
 
 ---
 
